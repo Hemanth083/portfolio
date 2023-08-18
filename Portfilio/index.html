@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body id="body">
+    <nav>
+        <div class="control">
+            <a id="aboutLink">ABOUT</a>
+            <a id="workLink">WORK</a>
+            <a id="contactLink">CONTACT</a>
+            <a href="https://github.com/Hemanth083"> <img src="./assets/icons8-github-30.png"></a>
+        </div>
+    </nav>
+    <div id="introPage" class="introPage">
+        <h2 data-aos="slide-up" class="heading iAm">I'm</h2>
+        <h2 data-aos="zoom-in" data-aos-delay="400" class="heading name">Hemanth</h2>
+        <h1 data-aos="slide-down" class="heading">
+            Front-end<br> web developer
+        </h1>
+        <button data-aos="fade" id="button" class="button"><span>Know more</span></button>
+    </div>
+    <div id="aboutPage" class="aboutPage">
+        <div class="imagePart">
+            <img data-aos="zoom-in" src="./assets/WhatsApp Image 2022-11-22 at 7.34.09 PM.jpeg" class="myPic">
+        </div>
+        <div class="aboutPart">
+            <h1 class="aboutHeading">ABOUT</h1>
+            <p data-aos="fade-up ">I am <b>Hemanth</b>, a talented frontend web developer skilled in HTML, CSS, and
+                JavaScript. I specialize in
+                building responsive websites with visually appealing designs.
+                With expertise in JavaScript frameworks, I create dynamic and interactive web
+                applications. I take pride in consistently exceeding client expectations with my exceptional frontend
+                development abilities.</p>
+        </div>
+    </div>
+    <div id="worksHeading" class="worksHeading">
+        <h1 class="aboutHeading work">WORK</h1>
+    </div>
+    <div class="Projects">
+        <div class="displayProj firstproj">
+            <img data-aos="fade" data-aos-delay="400" class="projectImage" src="./assets/Screenshot of petWorld.png">
+            <div data-aos="flip-left" class="projuctNuber">1</div>
+            <section>
+                <p data-aos="fade" data-aos-delay="400" class="projectDiscription">
+                    "PetWorld" is a frontend web project built using HTML, CSS, and JavaScript. This responsive website
+                    focuses on providing a visually appealing and user-friendly platform for pet lovers. Users can
+                    explore different pet categories, view detailed pet profiles, and engage with a vibrant community of
+                    pet enthusiasts. With a strong emphasis on frontend development, PetWorld offers a seamless and
+                    immersive experience without relying on backend functionality. Its elegant design and intuitive
+                    interface make it an ideal destination for pet lovers to connect, discover, and engage with the
+                    world of pets.
+                </p>
+                <div data-aos="fade" data-aos-delay="400" class="access">
+                    <button target="blank" onclick="openPetWorld()"
+                        class="button visitButton"><span>Visit</span></button>
+                    <!-- <button class="button visitButton"><span>Code</span></button> -->
+                </div>
+            </section>
+        </div>
+
+        <div class="displayProj">
+            <img data-aos="fade" data-aos-delay="400" class="projectImage" src="./assets/Screenshot  of shopingApp.png">
+            <div data-aos="flip-left" data-aos-duration="40000" class="projuctNuber">2</div>
+            <section>
+                <p data-aos="fade" data-aos-delay="400" class="projectDiscription">
+                    "Blue Salamander" is an engaging shopping website, offering a variety of products to users. With a
+                    sleek and
+                    user-friendly design, the website invites customers to explore its collection across multiple pages.
+                    Seamlessly designed
+                    and creatively crafted, Blue Salamander provides a delightful front-end shopping experience. Please
+                    note that as a front-end application, it focuses on delivering an
+                    impressive user interface and experience</p>
+                <div data-aos="fade" data-aos-delay="400" class="access">
+                    <button class="button visitButton"><span>Visit</span></button>
+                    <!-- <button class="button visitButton"><span>Code</span></button> -->
+                </div>
+            </section>
+        </div>
+        <div class="displayProj lastproj">
+            <img data-aos="fade" data-aos-delay="400" class="projectImage" src="./assets/Screenshot (75).png">
+            <div data-aos="flip-left" class="projuctNuber">3 </div>
+            <section>
+                <p data-aos="fade" data-aos-delay="400" class="projectDiscription">
+                    "Supra" is an immersive single-page front-end website dedicated to car enthusiasts and fans of the
+                    iconic Supra model.
+                    With a sleek and modern design, the Supra website showcases the car's history, features, and
+                    performance in an engaging
+                    manner. Users can explore high-quality images, watch videos, and read captivating narratives about
+                    the Supra's
+                    evolution. </p>
+                <div data-aos="fade" data-aos-delay="400" class="access">
+                    <button onclick="open" class="button visitButton"><span>Visit</span></button>
+                    <!-- <button class="button visitButton"><span>Code</span></button> -->
+                </div>
+            </section>
+        </div>
+    </div>
+    <div id="contact" class="contact">
+        <h1 class="aboutHeading work">Contact</h1>
+        <h1 class="heading">Keep in touch</h1>
+        <div data-aos="flip-right" class="icons">
+            <a href="https://www.instagram.com/____.hemanth.___/" class="media insta">
+                <img src="./assets/instagram.png" width="35px" height="auto">
+                <h6>Instagram</h6>
+            </a>
+            <a href="mailto:wantedatom7@gmail.com?subject=Your%20Subject%20Here&body=Your%20Message%20Here"
+                class="media">
+                <img src="./assets/sms.png" width="35px" height="auto">
+                <h6>Mail</h6>
+            </a>
+            <a href="https://twitter.com/Hemanth__N" class="media">
+                <img src="./assets/578-5789236_logo-twitter-png-blanc-white-twitter-logo-transparent.png" width="35px"
+                    height="auto">
+                <h6>Twitter</h6>
+            </a>
+            <a href="https://github.com/Hemanth083" class="media">
+                <img src="./assets/icons8-github-30.png" width="35px" height="auto">
+                <h6>Git-Hub</h6>
+            </a>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
